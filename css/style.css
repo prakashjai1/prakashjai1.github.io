@@ -1298,6 +1298,9 @@ nav .navicon {
         width: 90%;
         
     }
+    .project-box .items .live-link a{
+        font-size: 1.1rem;
+    }
 
     /* Certificate section */
     #certificate .certificate-section{
@@ -1342,8 +1345,5 @@ nav .navicon {
     .contact-form textarea {
         width: 90%;
         margin: 0 auto;
-    }
-    *{
-        /* border: 1px solid red; */
     }
 }
