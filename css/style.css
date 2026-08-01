@@ -1248,18 +1248,18 @@ nav .navicon {
 @media (max-width:320px){
     
     .about-section .title-section .heading-line::before{
-        left: 4.4rem;
+        left: 5.4rem;
     }
     .skill-section .title-section .heading-line::before {
-        left: 2.4rem;
+        left: 3.4rem;
     }
 
     .project-section .title-section .heading-line::before {
-        left: 5rem;
+        left: 6rem;
     }
 
     .certificate-section .title-section .heading-line::before {
-        left: 3.4rem;
+        left: 4.4rem;
     }
 
     /* Home */
