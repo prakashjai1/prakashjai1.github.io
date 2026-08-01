@@ -1145,7 +1145,28 @@ nav .navicon {
 
     /* Home section */
     
+    .about-section .title-section .heading-line::before{
+        width: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .skill-section .title-section .heading-line::before {
+        left: 50%;
+        width: 30%;
+        transform: translateX(-50%);
+    }
 
+    .project-section .title-section .heading-line::before {
+        left: 50%;
+        width: 30%;
+        transform: translateX(-50%);
+    }
+
+    .certificate-section .title-section .heading-line::before {
+        left: 50%;
+        width: 30%;
+        transform: translateX(-50%);
+    }
 
     /* Certificate section */
     .certificate-section .certificate-content {
@@ -1185,43 +1206,12 @@ nav .navicon {
 
 @media (max-width:426px){
     
-    .about-section .title-section .heading-line::before{
-        left: 7.7rem;
-    }
-    .skill-section .title-section .heading-line::before {
-        left: 5.6rem;
-    }
-
-    .project-section .title-section .heading-line::before {
-        left: 8.3rem;
-    }
-
-    .certificate-section .title-section .heading-line::before {
-        left: 6.7rem;
-    }
-    .hero-content .hero-description{
-        font-size: .8rem;
-        text-align: center;
-    }
+   
 }
 
 @media (max-width:376px){
     
-    .about-section .title-section .heading-line::before{
-        left: 7.1rem;
-    }
-    .skill-section .title-section .heading-line::before {
-        left: 5.1rem;
-    }
-
-    .project-section .title-section .heading-line::before {
-        left: 7.7rem;
-    }
-
-    .certificate-section .title-section .heading-line::before {
-        left: 6.1rem;
-    }
-
+    
     #home{
         padding: 1rem;
     }
@@ -1247,21 +1237,6 @@ nav .navicon {
 
 @media (max-width:320px){
     
-    .about-section .title-section .heading-line::before{
-        left: 5.4rem;
-    }
-    .skill-section .title-section .heading-line::before {
-        left: 3.4rem;
-    }
-
-    .project-section .title-section .heading-line::before {
-        left: 6rem;
-    }
-
-    .certificate-section .title-section .heading-line::before {
-        left: 4.4rem;
-    }
-
     /* Home */
     .hero-content h1{
         font-size: 1.5rem;
